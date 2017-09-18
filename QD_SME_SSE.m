@@ -184,8 +184,6 @@ max(Iexp)
 mean(Iexp)
 var(Iexp)
 
-% adjoint evolution with temperature
-
 tic
 out_E_tmp = backward_master_BAYES_TMP(c,cl,v1,v2,v3,params,Ev,TN_f,dNs_f,dt,Tend,dY_tmp);
 TE_me_tmp = out_E_tmp{1};
